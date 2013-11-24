@@ -1,0 +1,10 @@
+
+<a href="#" id="spn-start">Click here to start SPN.</a>
+
+<script>
+  $(function() {
+    $('#spn-start').click(function() {
+	  window.request_spn_permission('<%= USER-SPN-TOKEN %>');
+    });
+  });
+</script>

@@ -8,4 +8,7 @@ Your::Application.routes.draw do
 		delete 'devices/:device_token/registrations/YOUR-WEBSITE-PUSH-ID',
 				 action: 'destroy'
 	end
+
+  get '/start', 'page#start'
+
 end
